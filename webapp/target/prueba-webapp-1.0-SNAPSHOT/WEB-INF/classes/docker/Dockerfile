@@ -1,0 +1,4 @@
+FROM incodehq/tomcat
+RUN rm -rf ${DEPLOYMENT_DIR}/ROOT
+COPY prueba.war ${DEPLOYMENT_DIR}/ROOT.war
+EXPOSE 8080
