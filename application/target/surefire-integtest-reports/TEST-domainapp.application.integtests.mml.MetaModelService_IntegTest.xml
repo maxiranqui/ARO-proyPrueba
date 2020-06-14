@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="domainapp.application.integtests.mml.MetaModelService_IntegTest" time="5.466" tests="2" errors="0" skipped="2" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="domainapp.application.integtests.mml.MetaModelService_IntegTest" time="16.776" tests="2" errors="0" skipped="2" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
     <property name="java.vm.version" value="25.251-b08"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Usuario\Documents\PROYECTO FINAL\prueba"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\maxi_\ProyectoFinal\RepoPersonalAro\ARO-proyPrueba"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
-    <property name="user.country" value="ES"/>
+    <property name="user.country" value="AR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Usuario\Documents\PROYECTO FINAL\prueba"/>
+    <property name="user.dir" value="C:\Users\maxi_\ProyectoFinal\RepoPersonalAro\ARO-proyPrueba"/>
     <property name="java.runtime.version" value="1.8.0_251-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Usuario\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\maxi_\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\WINDOWS\System32\OpenSSH\;C:\FPC\3.0.4\bin\i386-Win32;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.1\bin;C:\Program Files\Git\bin;C:\Users\Usuario\AppData\Local\Microsoft\WindowsApps;C:\Users\Usuario\AppData\Roaming\npm;C:\Users\Usuario\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.1\bin;C:\Users\maxi_\AppData\Local\Microsoft\WindowsApps;;."/>
     <property name="maven.conf" value="C:\apache-maven-3.6.1\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Usuario"/>
+    <property name="user.home" value="C:\Users\maxi_"/>
     <property name="user.timezone" value="America/Buenos_Aires"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="Usuario"/>
+    <property name="user.name" value="maxi_"/>
     <property name="java.class.path" value="C:\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
@@ -66,73 +66,73 @@
   </properties>
   <testcase name="_2_verify" classname="domainapp.application.integtests.mml.MetaModelService_IntegTest" time="0">
     <skipped/>
-    <system-out><![CDATA[12:47:52,502  [HeadlessWithBootstrappingAbstract main       INFO ]  isis.integTest.module = 
-12:47:53,110  [Reflections          main       INFO ]  Reflections took 328 ms to scan 8 urls, producing 338 keys and 1516 values 
-608   [Reflections               main       INFO ]  Reflections took 328 ms to scan 8 urls, producing 338 keys and 1516 values 
-12:47:53,360  [ServicesInstallerFromConfigurationAndAnnotation main       INFO ]  installing org.apache.isis.core.runtime.services.ServicesInstallerFromConfigurationAndAnnotation
-858   [onfigurationAndAnnotation main       INFO ]  installing org.apache.isis.core.runtime.services.ServicesInstallerFromConfigurationAndAnnotation
-12:47:53,677  [IsisSessionFactoryBuilder main       INFO ]  initialising Isis System
-1175  [IsisSessionFactoryBuilder main       INFO ]  initialising Isis System
-12:47:53,678  [IsisSessionFactoryBuilder main       INFO ]  working directory: C:\Users\Usuario\Documents\PROYECTO FINAL\prueba\application\.
-1176  [IsisSessionFactoryBuilder main       INFO ]  working directory: C:\Users\Usuario\Documents\PROYECTO FINAL\prueba\application\.
-12:47:53,678  [IsisSessionFactoryBuilder main       INFO ]  resource stream source: null
-1176  [IsisSessionFactoryBuilder main       INFO ]  resource stream source: null
-12:47:54,143  [SpecificationLoader  Thread-2   INFO ]  Loading all specs (up to state of NOT_INTROSPECTED)
-1641  [SpecificationLoader       Thread-2   INFO ]  Loading all specs (up to state of NOT_INTROSPECTED)
-12:47:54,159  [PersistenceSessionFactory Thread-3   INFO ]  did *not* find config properties to use JNDI datasource; will use JDBC
-1657  [PersistenceSessionFactory Thread-3   INFO ]  did *not* find config properties to use JNDI datasource; will use JDBC
-12:47:54,346  [SpecificationLoader  Thread-2   INFO ]  Introspecting all specs up to TYPE_INTROSPECTED
-1844  [SpecificationLoader       Thread-2   INFO ]  Introspecting all specs up to TYPE_INTROSPECTED
-12:47:55,473  [ThreadPoolSupport    Thread-2   INFO ]  join'ing 135 tasks: waited 0 milliseconds 
-2971  [ThreadPoolSupport         Thread-2   INFO ]  join'ing 135 tasks: waited 0 milliseconds 
-12:47:55,474  [SpecificationLoader  Thread-2   INFO ]  Introspecting domainService specs up to TYPE_AND_MEMBERS_INTROSPECTED
-2972  [SpecificationLoader       Thread-2   INFO ]  Introspecting domainService specs up to TYPE_AND_MEMBERS_INTROSPECTED
-12:47:55,840  [ThreadPoolSupport    Thread-2   INFO ]  join'ing 86 tasks: waited 0 milliseconds 
-3338  [ThreadPoolSupport         Thread-2   INFO ]  join'ing 86 tasks: waited 0 milliseconds 
-12:47:55,841  [SpecificationLoader  Thread-2   INFO ]  Introspecting mixin specs up to TYPE_AND_MEMBERS_INTROSPECTED
-3339  [SpecificationLoader       Thread-2   INFO ]  Introspecting mixin specs up to TYPE_AND_MEMBERS_INTROSPECTED
-12:47:55,878  [ThreadPoolSupport    Thread-2   INFO ]  join'ing 11 tasks: waited 0 milliseconds 
-3376  [ThreadPoolSupport         Thread-2   INFO ]  join'ing 11 tasks: waited 0 milliseconds 
-12:47:55,879  [SpecificationLoader  Thread-2   INFO ]  Introspecting all cached specs up to TYPE_AND_MEMBERS_INTROSPECTED
-3377  [SpecificationLoader       Thread-2   INFO ]  Introspecting all cached specs up to TYPE_AND_MEMBERS_INTROSPECTED
-12:47:56,047  [ThreadPoolSupport    Thread-2   INFO ]  join'ing 165 tasks: waited 0 milliseconds 
-3545  [ThreadPoolSupport         Thread-2   INFO ]  join'ing 165 tasks: waited 0 milliseconds 
-12:47:56,047  [SpecificationLoader  Thread-2   INFO ]  init() - done
-3545  [SpecificationLoader       Thread-2   INFO ]  init() - done
-12:47:56,265  [Schema               Thread-3   DEBUG]  La columna ""DELETEME1590421676255"."UNUSED"" añadió a la representación de la table.
-12:47:56,273  [Schema               Thread-3   DEBUG]  Crear la tabla "DELETEME1590421676255"
-12:47:56,281  [Schema               Thread-3   DEBUG]  CREATE TABLE "DELETEME1590421676255"
+    <system-out><![CDATA[17:44:38,521  [HeadlessWithBootstrappingAbstract main       INFO ]  isis.integTest.module = 
+17:44:40,008  [Reflections          main       INFO ]  Reflections took 820 ms to scan 8 urls, producing 338 keys and 1516 values 
+1487  [Reflections               main       INFO ]  Reflections took 820 ms to scan 8 urls, producing 338 keys and 1516 values 
+17:44:40,608  [ServicesInstallerFromConfigurationAndAnnotation main       INFO ]  installing org.apache.isis.core.runtime.services.ServicesInstallerFromConfigurationAndAnnotation
+2087  [onfigurationAndAnnotation main       INFO ]  installing org.apache.isis.core.runtime.services.ServicesInstallerFromConfigurationAndAnnotation
+17:44:41,293  [IsisSessionFactoryBuilder main       INFO ]  initialising Isis System
+2772  [IsisSessionFactoryBuilder main       INFO ]  initialising Isis System
+17:44:41,294  [IsisSessionFactoryBuilder main       INFO ]  working directory: C:\Users\maxi_\ProyectoFinal\RepoPersonalAro\ARO-proyPrueba\application\.
+2773  [IsisSessionFactoryBuilder main       INFO ]  working directory: C:\Users\maxi_\ProyectoFinal\RepoPersonalAro\ARO-proyPrueba\application\.
+17:44:41,295  [IsisSessionFactoryBuilder main       INFO ]  resource stream source: null
+2774  [IsisSessionFactoryBuilder main       INFO ]  resource stream source: null
+17:44:42,394  [SpecificationLoader  Thread-2   INFO ]  Loading all specs (up to state of NOT_INTROSPECTED)
+3873  [SpecificationLoader       Thread-2   INFO ]  Loading all specs (up to state of NOT_INTROSPECTED)
+17:44:42,448  [PersistenceSessionFactory Thread-3   INFO ]  did *not* find config properties to use JNDI datasource; will use JDBC
+3927  [PersistenceSessionFactory Thread-3   INFO ]  did *not* find config properties to use JNDI datasource; will use JDBC
+17:44:42,896  [SpecificationLoader  Thread-2   INFO ]  Introspecting all specs up to TYPE_INTROSPECTED
+4375  [SpecificationLoader       Thread-2   INFO ]  Introspecting all specs up to TYPE_INTROSPECTED
+17:44:46,686  [ThreadPoolSupport    Thread-2   INFO ]  join'ing 135 tasks: waited 0 milliseconds 
+8165  [ThreadPoolSupport         Thread-2   INFO ]  join'ing 135 tasks: waited 0 milliseconds 
+17:44:46,687  [SpecificationLoader  Thread-2   INFO ]  Introspecting domainService specs up to TYPE_AND_MEMBERS_INTROSPECTED
+8166  [SpecificationLoader       Thread-2   INFO ]  Introspecting domainService specs up to TYPE_AND_MEMBERS_INTROSPECTED
+17:44:48,199  [ThreadPoolSupport    Thread-2   INFO ]  join'ing 86 tasks: waited 0 milliseconds 
+9678  [ThreadPoolSupport         Thread-2   INFO ]  join'ing 86 tasks: waited 0 milliseconds 
+17:44:48,200  [SpecificationLoader  Thread-2   INFO ]  Introspecting mixin specs up to TYPE_AND_MEMBERS_INTROSPECTED
+9679  [SpecificationLoader       Thread-2   INFO ]  Introspecting mixin specs up to TYPE_AND_MEMBERS_INTROSPECTED
+17:44:48,417  [ThreadPoolSupport    Thread-2   INFO ]  join'ing 11 tasks: waited 0 milliseconds 
+9896  [ThreadPoolSupport         Thread-2   INFO ]  join'ing 11 tasks: waited 0 milliseconds 
+17:44:48,418  [SpecificationLoader  Thread-2   INFO ]  Introspecting all cached specs up to TYPE_AND_MEMBERS_INTROSPECTED
+9897  [SpecificationLoader       Thread-2   INFO ]  Introspecting all cached specs up to TYPE_AND_MEMBERS_INTROSPECTED
+17:44:48,980  [Schema               Thread-3   DEBUG]  La columna ""DELETEME1592081088790"."UNUSED"" añadió a la representación de la table.
+17:44:48,980  [Schema               Thread-3   DEBUG]  Crear la tabla "DELETEME1592081088790"
+17:44:48,996  [Schema               Thread-3   DEBUG]  CREATE TABLE "DELETEME1592081088790"
 (
     "UNUSED" INTEGER NOT NULL
 )
-12:47:56,285  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 4 ms
-12:47:56,307  [Schema               Thread-3   DEBUG]  Borrar la tabla "DELETEME1590421676255"
-12:47:56,307  [Schema               Thread-3   DEBUG]  DROP TABLE "DELETEME1590421676255"
-12:47:56,308  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 1 ms
-12:47:56,580  [Schema               Thread-3   DEBUG]  La columna ""DELETEME1590421676580"."UNUSED"" añadió a la representación de la table.
-12:47:56,581  [Schema               Thread-3   DEBUG]  Crear la tabla "DELETEME1590421676580"
-12:47:56,581  [Schema               Thread-3   DEBUG]  CREATE TABLE "DELETEME1590421676580"
+17:44:49,163  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 0 ms
+17:44:49,200  [Schema               Thread-3   DEBUG]  Borrar la tabla "DELETEME1592081088790"
+17:44:49,201  [Schema               Thread-3   DEBUG]  DROP TABLE "DELETEME1592081088790"
+17:44:49,203  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 2 ms
+17:44:49,974  [ThreadPoolSupport    Thread-2   INFO ]  join'ing 165 tasks: waited 0 milliseconds 
+11453 [ThreadPoolSupport         Thread-2   INFO ]  join'ing 165 tasks: waited 0 milliseconds 
+17:44:49,975  [SpecificationLoader  Thread-2   INFO ]  init() - done
+11454 [SpecificationLoader       Thread-2   INFO ]  init() - done
+17:44:50,174  [Schema               Thread-3   DEBUG]  La columna ""DELETEME1592081090174"."UNUSED"" añadió a la representación de la table.
+17:44:50,174  [Schema               Thread-3   DEBUG]  Crear la tabla "DELETEME1592081090174"
+17:44:50,175  [Schema               Thread-3   DEBUG]  CREATE TABLE "DELETEME1592081090174"
 (
     "UNUSED" INTEGER NOT NULL
 )
-12:47:56,582  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 1 ms
-12:47:56,585  [Schema               Thread-3   DEBUG]  Borrar la tabla "DELETEME1590421676580"
-12:47:56,585  [Schema               Thread-3   DEBUG]  DROP TABLE "DELETEME1590421676580"
-12:47:56,585  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 0 ms
-12:47:56,713  [Schema               Thread-3   DEBUG]  La columna ""simple"."SimpleObject"."id"" añadió a la representación de la table.
-12:47:56,715  [Schema               Thread-3   DEBUG]  Campo [DATASTORE_ID] -> Columnas ["simple"."SimpleObject"."id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-12:47:56,720  [Schema               Thread-3   DEBUG]  La tabla "simple"."SimpleObject" va a manejar la persistencia de los campos de la clase domainapp.modules.simple.dom.impl.SimpleObject (estrategia de heredar="new-table")
-12:47:56,721  [Schema               Thread-3   DEBUG]  La columna ""simple"."SimpleObject"."name"" añadió a la representación de la table.
-12:47:56,727  [Schema               Thread-3   DEBUG]  Campo [domainapp.modules.simple.dom.impl.SimpleObject.name] -> Columnas ["simple"."SimpleObject"."name"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-12:47:56,729  [Schema               Thread-3   DEBUG]  La columna ""simple"."SimpleObject"."notes"" añadió a la representación de la table.
-12:47:56,730  [Schema               Thread-3   DEBUG]  Campo [domainapp.modules.simple.dom.impl.SimpleObject.notes] -> Columnas ["simple"."SimpleObject"."notes"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-12:47:56,731  [Schema               Thread-3   DEBUG]  La columna ""simple"."SimpleObject"."version"" añadió a la representación de la table.
-12:47:56,732  [Schema               Thread-3   DEBUG]  Campo [VERSION] -> Columnas ["simple"."SimpleObject"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-12:47:56,733  [Schema               Thread-3   DEBUG]  Table/View "simple"."SimpleObject" ha sido inicializado
-12:47:56,736  [Schema               Thread-3   DEBUG]  Empezando transaccion del esquema con conneccion "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@6b637afe" y isolacion "serializable"
-12:47:56,740  [Schema               Thread-3   DEBUG]  Check of existence of "simple"."SimpleObject" returned no table
-12:47:56,741  [Schema               Thread-3   DEBUG]  Crear la tabla "simple"."SimpleObject"
-12:47:56,742  [Schema               Thread-3   DEBUG]  CREATE TABLE "simple"."SimpleObject"
+17:44:50,180  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 5 ms
+17:44:50,193  [Schema               Thread-3   DEBUG]  Borrar la tabla "DELETEME1592081090174"
+17:44:50,194  [Schema               Thread-3   DEBUG]  DROP TABLE "DELETEME1592081090174"
+17:44:50,195  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 1 ms
+17:44:50,517  [Schema               Thread-3   DEBUG]  La columna ""simple"."SimpleObject"."id"" añadió a la representación de la table.
+17:44:50,523  [Schema               Thread-3   DEBUG]  Campo [DATASTORE_ID] -> Columnas ["simple"."SimpleObject"."id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+17:44:50,529  [Schema               Thread-3   DEBUG]  La tabla "simple"."SimpleObject" va a manejar la persistencia de los campos de la clase domainapp.modules.simple.dom.impl.SimpleObject (estrategia de heredar="new-table")
+17:44:50,530  [Schema               Thread-3   DEBUG]  La columna ""simple"."SimpleObject"."name"" añadió a la representación de la table.
+17:44:50,535  [Schema               Thread-3   DEBUG]  Campo [domainapp.modules.simple.dom.impl.SimpleObject.name] -> Columnas ["simple"."SimpleObject"."name"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+17:44:50,538  [Schema               Thread-3   DEBUG]  La columna ""simple"."SimpleObject"."notes"" añadió a la representación de la table.
+17:44:50,539  [Schema               Thread-3   DEBUG]  Campo [domainapp.modules.simple.dom.impl.SimpleObject.notes] -> Columnas ["simple"."SimpleObject"."notes"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+17:44:50,540  [Schema               Thread-3   DEBUG]  La columna ""simple"."SimpleObject"."version"" añadió a la representación de la table.
+17:44:50,541  [Schema               Thread-3   DEBUG]  Campo [VERSION] -> Columnas ["simple"."SimpleObject"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+17:44:50,542  [Schema               Thread-3   DEBUG]  Table/View "simple"."SimpleObject" ha sido inicializado
+17:44:50,546  [Schema               Thread-3   DEBUG]  Empezando transaccion del esquema con conneccion "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@6089edd9" y isolacion "serializable"
+17:44:50,562  [Schema               Thread-3   DEBUG]  Check of existence of "simple"."SimpleObject" returned no table
+17:44:50,562  [Schema               Thread-3   DEBUG]  Crear la tabla "simple"."SimpleObject"
+17:44:50,563  [Schema               Thread-3   DEBUG]  CREATE TABLE "simple"."SimpleObject"
 (
     "id" BIGINT GENERATED BY DEFAULT AS IDENTITY,
     "name" VARCHAR(40) NOT NULL,
@@ -140,38 +140,38 @@
     "version" TIMESTAMP NOT NULL,
     CONSTRAINT "SimpleObject_PK" PRIMARY KEY ("id")
 )
-12:47:56,743  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 1 ms
-12:47:56,748  [Schema               Thread-3   DEBUG]  Crear la llave unica "SimpleObject_name_UNQ" en catalogo "" equema ""simple""
-12:47:56,748  [Schema               Thread-3   DEBUG]  ALTER TABLE "simple"."SimpleObject" ADD CONSTRAINT "SimpleObject_name_UNQ" UNIQUE ("name")
-12:47:56,750  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 2 ms
-12:47:56,751  [Schema               Thread-3   DEBUG]  Committing transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@6b637afe"
-12:47:56,751  [Schema               Thread-3   DEBUG]  Cerrando la conneccion de la transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@6b637afe"
-12:47:56,752  [ThreadPoolSupport    main       INFO ]  join'ing 5 tasks: waited 0 milliseconds 
-4250  [ThreadPoolSupport         main       INFO ]  join'ing 5 tasks: waited 0 milliseconds 
-12:47:56,999  [ServiceInitializer   main       INFO ]  calling @PostConstruct on all domain services
-4497  [ServiceInitializer        main       INFO ]  calling @PostConstruct on all domain services
-12:47:57,187  [EmailServiceDefault  main       WARN ]  NOT configured
-4685  [EmailServiceDefault       main       WARN ]  NOT configured
-12:47:57,437  [IsisSystemBootstrapper main       INFO ]  ##########################################################################
-4935  [IsisSystemBootstrapper    main       INFO ]  ##########################################################################
-12:47:57,437  [IsisSystemBootstrapper main       INFO ]  # Bootstrapped in 4904 millis
-4935  [IsisSystemBootstrapper    main       INFO ]  # Bootstrapped in 4904 millis
-12:47:57,437  [IsisSystemBootstrapper main       INFO ]  ##########################################################################
-4935  [IsisSystemBootstrapper    main       INFO ]  ##########################################################################
+17:44:50,567  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 4 ms
+17:44:50,581  [Schema               Thread-3   DEBUG]  Crear la llave unica "SimpleObject_name_UNQ" en catalogo "" equema ""simple""
+17:44:50,581  [Schema               Thread-3   DEBUG]  ALTER TABLE "simple"."SimpleObject" ADD CONSTRAINT "SimpleObject_name_UNQ" UNIQUE ("name")
+17:44:50,586  [Schema               Thread-3   DEBUG]  Tiempo de cumplir = 5 ms
+17:44:50,587  [Schema               Thread-3   DEBUG]  Committing transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@6089edd9"
+17:44:50,588  [Schema               Thread-3   DEBUG]  Cerrando la conneccion de la transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@6089edd9"
+17:44:50,589  [ThreadPoolSupport    main       INFO ]  join'ing 5 tasks: waited 0 milliseconds 
+12068 [ThreadPoolSupport         main       INFO ]  join'ing 5 tasks: waited 0 milliseconds 
+17:44:50,895  [ServiceInitializer   main       INFO ]  calling @PostConstruct on all domain services
+12374 [ServiceInitializer        main       INFO ]  calling @PostConstruct on all domain services
+17:44:51,505  [EmailServiceDefault  main       WARN ]  NOT configured
+12984 [EmailServiceDefault       main       WARN ]  NOT configured
+17:44:52,164  [IsisSystemBootstrapper main       INFO ]  ##########################################################################
+13643 [IsisSystemBootstrapper    main       INFO ]  ##########################################################################
+17:44:52,223  [IsisSystemBootstrapper main       INFO ]  # Bootstrapped in 13564 millis
+13702 [IsisSystemBootstrapper    main       INFO ]  # Bootstrapped in 13564 millis
+17:44:52,224  [IsisSystemBootstrapper main       INFO ]  ##########################################################################
+13703 [IsisSystemBootstrapper    main       INFO ]  ##########################################################################
                                                             : EXEC org.apache.isis.applib.AppManifestAbstract2$1
-12:47:57,484  [HeadlessWithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
-4982  [WithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
+17:44:52,301  [HeadlessWithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
+13780 [WithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
                                                             : EXEC org.apache.isis.applib.AppManifestAbstract2$2
 /                                                           : EXEC domainapp.modules.simple.SimpleModule$1
 ]]></system-out>
   </testcase>
   <testcase name="_1_learn" classname="domainapp.application.integtests.mml.MetaModelService_IntegTest" time="0">
     <skipped/>
-    <system-out><![CDATA[12:47:57,547  [HeadlessWithBootstrappingAbstract main       INFO ]  isis.integTest.module = 
-5045  [WithBootstrappingAbstract main       INFO ]  isis.integTest.module = 
+    <system-out><![CDATA[17:44:52,452  [HeadlessWithBootstrappingAbstract main       INFO ]  isis.integTest.module = 
+13931 [WithBootstrappingAbstract main       INFO ]  isis.integTest.module = 
                                                             : EXEC org.apache.isis.applib.AppManifestAbstract2$1
-12:47:57,547  [HeadlessWithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
-5045  [WithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
+17:44:52,458  [HeadlessWithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
+13937 [WithBootstrappingAbstract main       INFO ]  ### TEST: domainapp.application.integtests.mml.MetaModelService_IntegTest
                                                             : EXEC org.apache.isis.applib.AppManifestAbstract2$2
 /                                                           : EXEC domainapp.modules.simple.SimpleModule$1
 ]]></system-out>
